@@ -1,0 +1,6 @@
+Secret ID = ae772443-9b36-4ef0-814f-95d03996411a
+
+secrets.json
+{
+  "AzureAD:ClientSecret": "1Co8Q~1i86P~t6XL10J5woaY1q9MkDeptb6SrcYk"
+}

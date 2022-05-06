@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>ae772443-9b36-4ef0-814f-95d03996411a</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Services\Notes.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.4" NoWarn="NU1605" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.OpenIdConnect" Version="6.0.4" NoWarn="NU1605" />
+    <PackageReference Include="Microsoft.Identity.Web" Version="1.16.0" />
+    <!--<PackageReference Include="Microsoft.Identity.Web.MicrosoftGraph" Version="1.16.0" />-->
+    <PackageReference Include="Microsoft.Identity.Web.UI" Version="1.16.0" />
+    <!--<PackageReference Include="Microsoft.SharePoint2019.CSOM" Version="16.0.10337.12109" />-->
+    <PackageReference Include="Microsoft.SharePointOnline.CSOM" Version="16.1.22315.12000" />
+    <PackageReference Include="SharePointPnPCore2019" Version="3.28.2012" />
+  </ItemGroup>
+
+</Project>
